@@ -33,7 +33,7 @@ global.shadowJadibts = true
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 global.packname = '🥭 ⌬ 𝒕𝒐𝒋𝒊 𝑩𝑶𝑻 ⌬ 🍁'
-global.botname = '🖤 𝑻𝑶𝑱𝑰 𝑩𝑶𝑻 🌙'
+global.botname = '⛩️ 𝗧𝗢𝗝𝗜𝗕𝗢𝗧-𝗠𝗗 ⛩️'
 global.wm = '◈ 𝐓𝐨𝐣𝐢 𝐁𝐎𝐓 ◈'
 global.author = '⩇⃟🍒 𝑴𝒂𝒅𝒆 𝒃𝒚 𝐜𝐚𝐫𝐥𝐨𝐬.𝐫𝐯 ⩇⃟🥭'
 global.dev = '🎶 ミ🍒 》𝑪𝑨𝑹𝑳𝑶𝑺.𝑹𝑽《 ミ 🌙'
