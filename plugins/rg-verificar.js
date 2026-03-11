@@ -27,7 +27,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
     ];
 
     return await conn.sendMessage(m.chat, {
-      image: { url: 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg' },
+      image: { url: 'https://files.catbox.moe/wqawaj.jpg' },
       caption: '   ꒰🥭⚠️ `ＡＶＩＳＯ` ⚠️🎵꒱ ',
       mentions: [m.sender],
       footer: `┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -62,7 +62,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
      ];
 
     return await conn.sendMessage(m.chat, {
-      image: { url: 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg' },
+      image: { url: 'https://files.catbox.moe/5rdykc.jpg' },
       caption: '    `ＡＶＩＳＯ:`',
       mentions: [m.sender],
       footer: `｡☆✼★━━━━━━━━━━━━★✼☆｡  
@@ -157,7 +157,7 @@ await conn.sendMessage(
         title: '❁︩︪•°ֺ໋۪݊🍃 ʀᴇɢɪsᴛʀᴏ - ᴛᴏᴊɪ - ʙᴏᴛ 🍂°໋•︪︩❁',
         body: '꒰🍒꒱ ᴛᴜ ᴄᴜᴇɴᴛᴀ ʜᴀ ꜱɪᴅᴏ ᴀᴄᴛɪᴠᴀᴅᴀ ᴄᴏɴ ᴇxɪᴛᴏ `☯︎ ᴛᴏᴊɪ ʙᴏᴛ • ʙʏ: ℂ𝕒𝕣𝕝𝕠𝕤.ℝ.𝕍`',
         mediaType: 1,
-        thumbnailUrl: 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg',
+        thumbnailUrl: 'https://files.catbox.moe/8vmid3.jpg',
         mediaUrl: redes,
         sourceUrl: redes,
         renderLargerThumbnail: false
