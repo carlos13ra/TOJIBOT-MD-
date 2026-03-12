@@ -33,7 +33,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
     const guildName = groupMetadata.subject
     const memberCount = participants.length
     const avatar = await conn.profilePictureUrl(usuarioJid, 'image').catch(_ => 'https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg')
-    const background = 'https://i.postimg.cc/Y2JJXwyb/1754525693627.jpg'
+    const background = 'https://files.catbox.moe/wqawaj.jpg'
     const guildIcon = 'https://github.com/Yuji-XDev.png'
 
     const url = `https://goo.su/Vtek/api/generate/welcome-image?username=${encodeURIComponent(username)}&guildName=${encodeURIComponent(guildName)}&memberCount=${memberCount}&avatar=${encodeURIComponent(avatar)}&background=${encodeURIComponent(background)}&guildIcon=${encodeURIComponent(guildIcon)}&key=hYSK8YrJpKRc9jSE&type=${tipo}`
