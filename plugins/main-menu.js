@@ -51,12 +51,12 @@ let handler = async (m, { conn, usedPrefix }) => {
       const emoji = emojis[tag] || '⭐'
       return `╭━━🎶〔 ${emoji} \`${tag.toUpperCase()}\` ━━⬣\n`
      + cmds.map(cmd => `┃ ➩ ${cmd}`).join('\n') 
-     + `\n╰━━🎧〔 SANTAFLOW 〕🎵━━⬣`
+     + `\n╰━━🍁〔 TOJIBOT-MD 〕🍁━━⬣`
     }).join('\n\n')
 
     let menuText = `
 > ✧ Hola! @${userId.split('@')[0]} soy ${botname} aquí tienes la lista de comandos 
-> ✧  ${ucapan()} Sigue a santaflow en sus redes sociales: TIKTOK: Santaflow oficial - FACEBOOK: Santaflow oficial - YOUTUBE: Santaflow oficial, y escucha sus canciones y exitos 🎧👌
+> ✧  ${ucapan()}'
 
 ╭━━━〔 \`sᴛᴀᴛᴜs-ᴜsᴇʀ\` 〕━━⬣
 │ 👤 *ᴜsᴇʀ* » ${name}
@@ -80,7 +80,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ${secciones}
 `.trim()
 
-await m.react('🎧')
+await m.react('🍁')
 await conn.sendMessage(m.chat, { video: { url: video }, caption: menuText, contextInfo: { /*mentionedJid: [m.sender],*/ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: botname, body: dev, thumbnailUrl: 'https://files.catbox.moe/fedlqm.jpg', sourceUrl: 'https://chat.whatsapp.com/K5BVfhQviJ00M5aJGv3Epc', mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: m })
 
